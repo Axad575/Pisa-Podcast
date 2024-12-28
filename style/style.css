@@ -8,6 +8,10 @@
 a{
     text-decoration: none;
 }
+html {
+    overflow-x: hidden;
+    margin-right: calc(-1 * (100vw - 100%));
+  }
 #navDiv{
     display: flex;
     justify-content: space-between;
