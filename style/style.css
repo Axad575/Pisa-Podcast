@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", serif;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+#navDiv{
+    display: flex;
+    justify-content: space-between;
+    height: 10dvh;
+}
+#navDivBox1{
+    display: flex;
+    align-items: center;
+    padding-left: 2dvh;
+}
+#navDivPhoto{
+    width: 10dvh;
+}
+#navDivBox2{
+    display: flex;
+    align-items: center;
+    padding-right: 2dvh;
+}
+#navDivBox2 a{
+    padding: 0dvh 2dvh;
+}
+#firstMainDiv{
+    display: flex;
+    height: 65dvh;
+    align-items: center;
+    justify-content: center;
+}
+#firstMainDivPhoto{
+    width: 45dvh;
+}
+#firstMainDivBox2Text1{
+    font-size: 10dvh;
+}
+#firstMainDivBox2Text2{
+    font-weight: 300;
+}
+#secondMainDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25dvh;
+}
+#youtube h2{
+    color: red;
+}
+#telegram h2{
+    color: blue;
+}
+#instagram h2{
+    color:black;
+}
+
+@media (max-width:758px) {
+    #navDivBox2{
+        display: none;
+    }
+    #firstMainDiv{
+        display: grid;
+    }
+    #firstMainDivBox2Text1{
+        font-size: 8dvh;
+        padding-left: 2dvh;
+    }
+    #firstMainDivBox2Text2{
+        font-size: 4dvh;
+        padding-left: 2dvh;
+    }
+    #secondMainDiv{
+        display: grid;
+        padding-top: 10dvh;
+        text-align: center;
+    }
+    #secondMainDiv h2{
+        padding: 2dvh 0dvh;
+    }
+}
