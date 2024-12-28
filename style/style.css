@@ -2,7 +2,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: "Open Sans", serif;
     color: black;
 }
@@ -67,6 +66,7 @@ a{
     }
     #firstMainDiv{
         display: grid;
+        justify-content: center;
     }
     #firstMainDivBox2Text1{
         font-size: 8dvh;
